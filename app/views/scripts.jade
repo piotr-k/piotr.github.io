@@ -1,0 +1,13 @@
+<!-- build:js(app) /scripts/vendor.min.js -->
+//- bower:js
+script(src='/vendor/jquery/dist/jquery.js')
+//- endbower
+<!-- endbuild -->
+
+<!-- build:js(.tmp, app) /scripts/app.min.js -->
+script(src='/scripts/app.js')
+//- injector
+//- endinjector
+script(src='/scripts/timber.master.min.js')
+script(src='/scripts/template-functions.js')
+<!-- endbuild -->
